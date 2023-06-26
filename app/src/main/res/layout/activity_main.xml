@@ -7,6 +7,15 @@
     android:orientation="vertical"
     tools:context=".ui.activity.MainActivity">
 
+
+    <Button
+        android:id="@+id/bt_new_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/click_to_add_new_note"
+        android:layout_gravity="center_horizontal"
+        />
+
     <!-- this object is the one that we are going to use
          to show data retrieved from the API  -->
     <androidx.recyclerview.widget.RecyclerView
